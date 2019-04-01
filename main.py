@@ -9,7 +9,7 @@ app.config['TEMPLATES_AUTO_RELOAD'] = True
 
 @app.route('/')
 def main():
-	return redirect('templates/index.html')
+	return redirect('index.html')
 
 
 @app.route('/saveForm', methods=['POST'])
